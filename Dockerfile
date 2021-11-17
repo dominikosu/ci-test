@@ -1,5 +1,5 @@
 FROM java:11
-1
+
 WORKDIR /usr/src/app
 
 ##
