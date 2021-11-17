@@ -1,4 +1,4 @@
-FROM java:11
+FROM adoptopenjdk/openjdk11
 
 WORKDIR /usr/src/app
 
