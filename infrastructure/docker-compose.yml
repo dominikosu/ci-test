@@ -1,0 +1,7 @@
+version: '1'
+
+services:
+  eosic-mapper-server:
+    image: eosic-mapper-server/api
+    ports:
+      - "9992:8080"
