@@ -22,6 +22,6 @@ jobs:
       with:
         ssh_host: 10.14.11.16
         ssh_port: 22
-        ssh_private_key: ${{ SSH_KEY }}
+        ssh_private_key: ${{ secrets.SSH_KEY }}
         ssh_user: dominik.osuch
         docker_compose_prefix: infrastructure/docker-compose.yml  
