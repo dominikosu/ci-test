@@ -24,7 +24,7 @@ RUN rm -rf /opt/tomcat/webapps/ROOT
 ###
 # Upload app to Tomcat service
 ###
-RUN cp /usr/src/app/build/libs/*.war /opt/tomcat/webapps/ROOT.war
+RUN cp /usr/target/*.war /opt/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
