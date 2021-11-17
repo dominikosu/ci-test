@@ -10,7 +10,7 @@ COPY . .
 ##
 # Build app
 ##
-Run mvn -B package --file pom.xml
+Run mvnw -B package --file pom.xml
 
 ###
 # Install tomcat service
